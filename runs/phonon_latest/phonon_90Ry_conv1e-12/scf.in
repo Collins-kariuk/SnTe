@@ -8,8 +8,8 @@
     outdir='./'
  /
  &system
-    ibrav=  2, celldm(1) =11.805023, nat=  2, ntyp= 2, nbnd = 19,
-    ecutwfc =80.0,
+    ibrav=  2, celldm(1) =11.805291, nat=  2, ntyp= 2, nbnd = 19,
+    ecutwfc =90.0,
  /
  &electrons
     diagonalization='david'

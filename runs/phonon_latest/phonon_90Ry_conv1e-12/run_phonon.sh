@@ -7,9 +7,9 @@
 ##SBATCH --nodelist=mrcd[89-90]
 
 #SBATCH --partition  pi.dstrubbe # test, short, medium, long
-#SBATCH --time=00:30:00
+#SBATCH --time=00:45:00
 
-#SBATCH --job-name=SnTe_ph
+#SBATCH --job-name=SnTe_ph90
 #SBATCH --export=ALL
 #SBATCH --output=SnTe_%j.stdout
 
