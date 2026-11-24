@@ -1,0 +1,24 @@
+]633;E;echo "=== Settings (scf.in) ===";0b71fa73-34a7-4a01-aa21-c608ac3add7e]633;C=== Settings (scf.in) ===
+    ibrav=  2, celldm(1) =11.805023, nat=  2, ntyp= 2, nbnd = 19,
+    ecutwfc =80.0,
+    conv_thr =  1.0d-8
+K_POINTS {automatic}
+4 4 4 1 1 1
+=== Settings (phonon.in) ===
+  tr2_ph = 1d-18
+  epsil = .true.
+  lraman = .true.
+=== Raw frequencies (phonon.out) ===
+     freq (    1) =      -0.400469 [THz] =     -13.358212 [cm-1]
+     freq (    2) =      -0.400469 [THz] =     -13.358212 [cm-1]
+     freq (    3) =      -0.400469 [THz] =     -13.358212 [cm-1]
+     freq (    4) =       0.418627 [THz] =      13.963906 [cm-1]
+     freq (    5) =       0.418627 [THz] =      13.963906 [cm-1]
+     freq (    6) =       0.418627 [THz] =      13.963906 [cm-1]
+=== After ASR (SnTe.modes) ===
+     freq (    1) =       0.000000 [THz] =       0.000000 [cm-1]
+     freq (    2) =       0.000000 [THz] =       0.000000 [cm-1]
+     freq (    3) =       0.000000 [THz] =       0.000000 [cm-1]
+     freq (    4) =       0.290909 [THz] =       9.703695 [cm-1]
+     freq (    5) =       0.290909 [THz] =       9.703695 [cm-1]
+     freq (    6) =       0.290909 [THz] =       9.703695 [cm-1]

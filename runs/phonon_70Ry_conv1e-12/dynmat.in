@@ -1,0 +1,5 @@
+&input
+  fildyn = 'SnTe.dyn'
+  asr = 'crystal'
+  filout = 'SnTe.modes'
+/

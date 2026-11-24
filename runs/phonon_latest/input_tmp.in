@@ -1,0 +1,10 @@
+Phonons of SnTe
+&INPUTPH
+  outdir = './'
+  prefix = 'SnTe'
+  tr2_ph = 1d-18
+  fildyn = 'SnTe.dyn'
+  epsil = .true.
+  lraman = .true.
+/
+0.0 0.0 0.0

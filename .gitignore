@@ -1,0 +1,11 @@
+*.save/
+_ph0/
+*.wfc*
+*.mix*
+*.igk*
+*.dvscf*
+tmp/
+slurm-*.out
+SnTe_*.stdout
+.DS_Store
+.vscode/

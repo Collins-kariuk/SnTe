@@ -1,0 +1,27 @@
+&control
+    calculation = 'scf'
+    restart_mode='from_scratch',
+    prefix='SnTe',
+    tstress = .true.
+    tprnfor = .true.
+    pseudo_dir = '/home/collinskariuki/SnTe/pseudopotentials',
+    outdir='./'
+ /
+ &system
+    ibrav=  2, celldm(1) =12.0406, nat=  2, ntyp= 2,
+    ecutwfc =70.0,
+ /
+ &electrons
+    diagonalization='david'
+    mixing_mode = 'plain'
+    mixing_beta = 0.7
+    conv_thr =  1.0d-8
+ /
+ATOMIC_SPECIES
+ Sn  118.710  Sn.upf
+ Te  127.60   Te.upf
+ATOMIC_POSITIONS alat
+ Sn 0.00 0.00 0.00
+ Te 0.50 0.50 0.50
+K_POINTS {automatic}
+6 6 6 1 1 1
